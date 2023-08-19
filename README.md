@@ -1,6 +1,8 @@
-The code for the paper "A lightweight speech recognition method with target-swap knowledge distillation for Mandarin air traffic control communications".
+## The code for the paper "A lightweight speech recognition method with target-swap knowledge distillation for Mandarin air traffic control communications".
 
-Refer to the speech recognition framework from NeuralSP: Neural network-based Speech Processing
+## Note: Knowledge distillation is a training strategy that is not limited to a specific speech recognition network framework.
+
+Refer to the speech recognition framework from NeuralSP: Neural network-based Speech Processing.
 
 ## How to install
 ```
