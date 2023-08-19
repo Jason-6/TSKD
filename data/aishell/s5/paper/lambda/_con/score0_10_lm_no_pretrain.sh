@@ -1,0 +1,11 @@
+. ./score0_lm_no_pretrain.sh
+. ./score1_lm_no_pretrain.sh
+. ./score2_lm_no_pretrain.sh
+. ./score3_lm_no_pretrain.sh
+. ./score4_lm_no_pretrain.sh
+. ./score5_lm_no_pretrain.sh
+. ./score6_lm_no_pretrain.sh
+. ./score7_lm_no_pretrain.sh
+. ./score8_lm_no_pretrain.sh
+. ./score9_lm_no_pretrain.sh
+. ./score10_lm_no_pretrain.sh

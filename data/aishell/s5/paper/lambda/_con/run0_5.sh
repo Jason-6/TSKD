@@ -1,0 +1,11 @@
+. ./run0.sh
+. ./run1.sh
+. ./run2.sh
+. ./run3.sh
+. ./run4.sh
+. ./run5.sh
+. ./run6.sh
+. ./run7.sh
+. ./run8.sh
+. ./run9.sh
+. ./run10.sh

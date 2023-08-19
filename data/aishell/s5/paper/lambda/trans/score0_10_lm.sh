@@ -1,0 +1,11 @@
+. ./score0_lm.sh
+. ./score1_lm.sh
+. ./score2_lm.sh
+. ./score3_lm.sh
+. ./score4_lm.sh
+. ./score5_lm.sh
+. ./score6_lm.sh
+. ./score7_lm.sh
+. ./score8_lm.sh
+. ./score9_lm.sh
+. ./score10_lm.sh

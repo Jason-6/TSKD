@@ -1,0 +1,11 @@
+. ./score0.sh
+. ./score1.sh
+. ./score2.sh
+. ./score3.sh
+. ./score4.sh
+. ./score5.sh
+. ./score6.sh
+. ./score7.sh
+. ./score8.sh
+. ./score9.sh
+. ./score10.sh

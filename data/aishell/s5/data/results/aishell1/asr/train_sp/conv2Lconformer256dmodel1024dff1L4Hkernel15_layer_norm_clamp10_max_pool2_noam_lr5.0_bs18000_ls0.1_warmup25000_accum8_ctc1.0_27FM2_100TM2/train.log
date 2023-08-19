@@ -1,0 +1,428 @@
+2022-06-06 15:45:16,075 neural_sp.models.seq2seq.encoders.encoder_base line:25 INFO: Overriding EncoderBase class.
+2022-06-06 15:45:16,076 neural_sp.models.seq2seq.encoders.encoder_base line:25 INFO: Overriding EncoderBase class.
+2022-06-06 15:45:16,084 neural_sp.models.seq2seq.encoders.encoder_base line:25 INFO: Overriding EncoderBase class.
+2022-06-06 15:45:16,088 neural_sp.models.seq2seq.encoders.conv line:163 INFO: ===== Initialize ConvEncoder with lecun style =====
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:78 INFO: Initialize layers.0.conv1.weight with lecun / 0.100
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:66 INFO: Initialize layers.0.conv1.bias with constant / 0.000
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:78 INFO: Initialize layers.0.conv2.weight with lecun / 0.100
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:66 INFO: Initialize layers.0.conv2.bias with constant / 0.000
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:78 INFO: Initialize layers.1.conv1.weight with lecun / 0.100
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:66 INFO: Initialize layers.1.conv1.bias with constant / 0.000
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:78 INFO: Initialize layers.1.conv2.weight with lecun / 0.100
+2022-06-06 15:45:16,089 neural_sp.models.modules.initialization line:66 INFO: Initialize layers.1.conv2.bias with constant / 0.000
+2022-06-06 15:45:16,092 neural_sp.models.modules.initialization line:70 INFO: Initialize bridge.weight with lecun / 0.100
+2022-06-06 15:45:16,092 neural_sp.models.modules.initialization line:66 INFO: Initialize bridge.bias with constant / 0.000
+2022-06-06 15:45:16,093 neural_sp.models.seq2seq.encoders.encoder_base line:25 INFO: Overriding EncoderBase class.
+2022-06-06 15:45:16,096 neural_sp.models.modules.multihead_attention line:73 INFO: ===== Initialize MultiheadAttentionMechanism with Xavier uniform distribution =====
+2022-06-06 15:45:16,101 neural_sp.models.modules.positionwise_feed_forward line:64 INFO: FFN activation: swish
+2022-06-06 15:45:16,101 neural_sp.models.modules.positionwise_feed_forward line:73 INFO: ===== Initialize PositionwiseFeedForward with Xavier uniform distribution =====
+2022-06-06 15:45:16,103 neural_sp.models.modules.initialization line:50 INFO: Initialize w_1.weight with xavier_uniform
+2022-06-06 15:45:16,103 neural_sp.models.modules.initialization line:47 INFO: Initialize w_1.bias with constant / 0.000
+2022-06-06 15:45:16,104 neural_sp.models.modules.initialization line:50 INFO: Initialize w_2.weight with xavier_uniform
+2022-06-06 15:45:16,104 neural_sp.models.modules.initialization line:47 INFO: Initialize w_2.bias with constant / 0.000
+2022-06-06 15:45:16,104 neural_sp.models.seq2seq.encoders.transformer_block line:68 INFO: Stochastic depth prob: 0.000
+2022-06-06 15:45:16,106 neural_sp.models.seq2seq.encoders.transformer line:353 INFO: ===== Initialize ConformerEncoder with Xavier uniform distribution =====
+2022-06-06 15:45:16,109 neural_sp.models.modules.positionwise_feed_forward line:64 INFO: FFN activation: swish
+2022-06-06 15:45:16,109 neural_sp.models.modules.positionwise_feed_forward line:73 INFO: ===== Initialize PositionwiseFeedForward with Xavier uniform distribution =====
+2022-06-06 15:45:16,110 neural_sp.models.modules.initialization line:50 INFO: Initialize w_1.weight with xavier_uniform
+2022-06-06 15:45:16,110 neural_sp.models.modules.initialization line:47 INFO: Initialize w_1.bias with constant / 0.000
+2022-06-06 15:45:16,111 neural_sp.models.modules.initialization line:50 INFO: Initialize w_2.weight with xavier_uniform
+2022-06-06 15:45:16,111 neural_sp.models.modules.initialization line:47 INFO: Initialize w_2.bias with constant / 0.000
+2022-06-06 15:45:16,112 neural_sp.models.modules.relative_multihead_attention line:72 INFO: ===== Initialize RelativeMultiheadAttentionMechanism with Xavier uniform distribution =====
+2022-06-06 15:45:16,114 neural_sp.models.modules.conformer_convolution line:67 INFO: normalization: layer_norm
+2022-06-06 15:45:16,115 neural_sp.models.modules.conformer_convolution line:84 INFO: ===== Initialize ConformerConvBlock with Xavier uniform distribution =====
+2022-06-06 15:45:16,115 neural_sp.models.modules.initialization line:50 INFO: Initialize weight with xavier_uniform
+2022-06-06 15:45:16,115 neural_sp.models.modules.initialization line:47 INFO: Initialize bias with constant / 0.000
+2022-06-06 15:45:16,116 neural_sp.models.modules.initialization line:50 INFO: Initialize weight with xavier_uniform
+2022-06-06 15:45:16,116 neural_sp.models.modules.initialization line:47 INFO: Initialize bias with constant / 0.000
+2022-06-06 15:45:16,116 neural_sp.models.modules.initialization line:50 INFO: Initialize weight with xavier_uniform
+2022-06-06 15:45:16,116 neural_sp.models.modules.initialization line:47 INFO: Initialize bias with constant / 0.000
+2022-06-06 15:45:16,118 neural_sp.models.modules.positionwise_feed_forward line:64 INFO: FFN activation: swish
+2022-06-06 15:45:16,118 neural_sp.models.modules.positionwise_feed_forward line:73 INFO: ===== Initialize PositionwiseFeedForward with Xavier uniform distribution =====
+2022-06-06 15:45:16,119 neural_sp.models.modules.initialization line:50 INFO: Initialize w_1.weight with xavier_uniform
+2022-06-06 15:45:16,119 neural_sp.models.modules.initialization line:47 INFO: Initialize w_1.bias with constant / 0.000
+2022-06-06 15:45:16,120 neural_sp.models.modules.initialization line:50 INFO: Initialize w_2.weight with xavier_uniform
+2022-06-06 15:45:16,121 neural_sp.models.modules.initialization line:47 INFO: Initialize w_2.bias with constant / 0.000
+2022-06-06 15:45:16,121 neural_sp.models.seq2seq.encoders.conformer_block line:84 INFO: Stochastic depth prob: 0.000
+2022-06-06 15:45:16,122 neural_sp.models.seq2seq.encoders.transformer line:353 INFO: ===== Initialize ConformerEncoder with Xavier uniform distribution =====
+2022-06-06 15:45:16,124 neural_sp.models.seq2seq.decoders.decoder_base line:28 INFO: Overriding DecoderBase class.
+2022-06-06 15:45:16,124 neural_sp.models.seq2seq.decoders.las line:152 INFO: Attention weight: 0.000
+2022-06-06 15:45:16,124 neural_sp.models.seq2seq.decoders.las line:153 INFO: CTC weight: 1.000
+2022-06-06 15:45:16,124 neural_sp.models.seq2seq.decoders.decoder_base line:28 INFO: Overriding DecoderBase class.
+2022-06-06 15:45:16,133 neural_sp.models.seq2seq.decoders.las line:419 INFO: ===== Initialize RNNDecoder with uniform distribution =====
+2022-06-06 15:45:16,134 neural_sp.models.modules.initialization line:97 INFO: Initialize ctc.output.fc0.weight with uniform / 0.100
+2022-06-06 15:45:16,134 neural_sp.models.modules.initialization line:94 INFO: Initialize ctc.output.fc0.bias with constant / 0.000
+2022-06-06 15:45:16,142 neural_sp.models.modules.initialization line:97 INFO: Initialize ctc.output.fc1.weight with uniform / 0.100
+2022-06-06 15:45:16,143 neural_sp.models.modules.initialization line:94 INFO: Initialize ctc.output.fc1.bias with constant / 0.000
+2022-06-06 15:45:16,145 __main__ line:150 INFO: accum_grad_n_steps: 8
+2022-06-06 15:45:16,145 __main__ line:150 INFO: adaptive_number_ratio: 0.0
+2022-06-06 15:45:16,145 __main__ line:150 INFO: adaptive_size_ratio: 0.0
+2022-06-06 15:45:16,145 __main__ line:150 INFO: asr_init: None
+2022-06-06 15:45:16,145 __main__ line:150 INFO: asr_init_enc_only: False
+2022-06-06 15:45:16,145 __main__ line:150 INFO: attn_conv_n_channels: 10
+2022-06-06 15:45:16,145 __main__ line:150 INFO: attn_conv_width: 201
+2022-06-06 15:45:16,145 __main__ line:150 INFO: attn_dim: 512
+2022-06-06 15:45:16,145 __main__ line:150 INFO: attn_n_heads: 1
+2022-06-06 15:45:16,145 __main__ line:150 INFO: attn_sharpening_factor: 1.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: attn_sigmoid: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: attn_type: location
+2022-06-06 15:45:16,146 __main__ line:150 INFO: batch_size: 18000
+2022-06-06 15:45:16,146 __main__ line:150 INFO: batch_size_type: frame
+2022-06-06 15:45:16,146 __main__ line:150 INFO: bptt: 0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: bwd_weight: 0.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: clip_grad_norm: 5.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: config: ../../../examples/aishell/s5/kd/layer/ctc_kd/conf/asr/kd/layer/ctc_kd/conformer_kernel15_clamp10_hie_subsample8_las_ln_layer_1.yaml
+2022-06-06 15:45:16,146 __main__ line:150 INFO: config2: None
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conformer_kernel_size: 15
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conformer_normalization: layer_norm
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conv_bottleneck_dim: 0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conv_channels: 32_32
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conv_in_channel: 1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conv_kernel_sizes: (3,3)_(3,3)
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conv_normalization: 
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conv_poolings: (1,1)_(2,2)
+2022-06-06 15:45:16,146 __main__ line:150 INFO: conv_strides: (1,1)_(1,1)
+2022-06-06 15:45:16,146 __main__ line:150 INFO: convert_to_sgd_epoch: 100
+2022-06-06 15:45:16,146 __main__ line:150 INFO: corpus: aishell1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: ctc_fc_list: 512
+2022-06-06 15:45:16,146 __main__ line:150 INFO: ctc_lsm_prob: 0.1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: ctc_weight: 1.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: ctc_weight_sub1: 0.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: ctc_weight_sub2: 0.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: cudnn_benchmark: 1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: cudnn_deterministic: 0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_bottleneck_dim: 1024
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_config_sub1: None
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_config_sub2: None
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_n_layers: 1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_n_projs: 0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_n_units: 1024
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_type: lstm
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_type_sub1: lstm
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dec_type_sub2: lstm
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dev_ctc_alignment: None
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dev_set: /media/mgl/OS/data/dataset/eval_set_sp.tsv
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dev_set_sub1: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dev_set_sub2: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dev_word_alignment: None
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dict: /media/mgl/OS/data/dict/train_sp.txt
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dict_sub1: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dict_sub2: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: discourse_aware: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dist_backend: nccl
+2022-06-06 15:45:16,146 __main__ line:150 INFO: distillation_weight: 0.1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: distributed: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dropout_att: 0.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dropout_dec: 0.4
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dropout_emb: 0.4
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dropout_enc: 0.1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dropout_enc_layer: 0.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dropout_in: 0.0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: dynamic_batching: True
+2022-06-06 15:45:16,146 __main__ line:150 INFO: early_stop_patient_n_epochs: 5
+2022-06-06 15:45:16,146 __main__ line:150 INFO: emb_dim: 512
+2022-06-06 15:45:16,146 __main__ line:150 INFO: enc_n_layers: 1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: enc_n_layers_sub1: 0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: enc_n_layers_sub2: 0
+2022-06-06 15:45:16,146 __main__ line:150 INFO: enc_type: conv_conformer
+2022-06-06 15:45:16,146 __main__ line:150 INFO: eps: 1e-06
+2022-06-06 15:45:16,146 __main__ line:150 INFO: eval_sets: []
+2022-06-06 15:45:16,146 __main__ line:150 INFO: eval_start_epoch: 1
+2022-06-06 15:45:16,146 __main__ line:150 INFO: external_lm: None
+2022-06-06 15:45:16,146 __main__ line:150 INFO: freeze_encoder: False
+2022-06-06 15:45:16,146 __main__ line:150 INFO: freq_width: 27
+2022-06-06 15:45:16,147 __main__ line:150 INFO: gmm_attn_n_mixtures: 5
+2022-06-06 15:45:16,147 __main__ line:150 INFO: input_dim: 80
+2022-06-06 15:45:16,147 __main__ line:150 INFO: input_noise_std: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: input_type: speech
+2022-06-06 15:45:16,147 __main__ line:150 INFO: job_name: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lc_chunk_size_current: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lc_chunk_size_left: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lc_chunk_size_right: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lc_type: reshape
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lm_fusion: 
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lm_init: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: local_rank: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: local_world_size: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lr: 0.001
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lr_decay_patient_n_epochs: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lr_decay_rate: 0.9
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lr_decay_start_epoch: 10
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lr_decay_type: always
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lr_factor: 5.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: lsm_prob: 0.1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: max_n_frames: 1400
+2022-06-06 15:45:16,147 __main__ line:150 INFO: max_n_time_masks: 20
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mbr_ce_weight: 0.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mbr_nbest: 4
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mbr_softmax_smoothing: 0.8
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mbr_training: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mem_len: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: metric: edit_distance
+2022-06-06 15:45:16,147 __main__ line:150 INFO: min_n_frames: 40
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_1dconv: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_chunk_size: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_decot_lookahead: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_eps: 1e-06
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_init_r: -4
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_latency_loss_weight: 0.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_latency_metric: 
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_n_heads_chunk: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_n_heads_mono: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_no_denominator: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_quantity_loss_start_epoch: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_quantity_loss_weight: 0.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_stableemit_start_epoch: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_stableemit_weight: 0.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mocha_std: 1.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: model_save_dir: ../../../examples/aishell/s5/data/results/aishell1/asr
+2022-06-06 15:45:16,147 __main__ line:150 INFO: mtl_per_batch: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: n_epochs: 60
+2022-06-06 15:45:16,147 __main__ line:150 INFO: n_freq_masks: 2
+2022-06-06 15:45:16,147 __main__ line:150 INFO: n_gpus: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: n_skips: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: n_splices: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: n_stacks: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: n_time_masks: 2
+2022-06-06 15:45:16,147 __main__ line:150 INFO: nlsyms: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: optimizer: noam
+2022-06-06 15:45:16,147 __main__ line:150 INFO: param_init: 0.1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: pin_memory: 0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: print_step: 1200
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_asr_state_carry_over: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_batch_size: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_beam_width: 1
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_block_sync: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_block_sync_size: 40
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_bwd_attention: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_cache_embedding: True
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_coverage_penalty: 0.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_coverage_threshold: 0.0
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_ctc_spike_forced_decoding: False
+2022-06-06 15:45:16,147 __main__ line:150 INFO: recog_ctc_vad: True
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_ctc_vad_blank_threshold: 40
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_ctc_vad_n_accum_frames: 4000
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_ctc_vad_spike_threshold: 0.1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_ctc_weight: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_dir: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_eos_threshold: 1.5
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_first_n_utt: -1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_fwd_bwd_attention: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_gnmt_decoding: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_ilm_weight: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_length_norm: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_length_penalty: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_lm: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_lm_bwd: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_lm_bwd_weight: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_lm_second: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_lm_second_weight: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_lm_state_carry_over: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_lm_weight: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_longform_max_n_frames: 0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_max_len_ratio: 1.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_mem_len: 0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_metric: edit_distance
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_min_len_ratio: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_mma_delay_threshold: -1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_mocha_p_choose_threshold: 0.5
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_model: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_model_bwd: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_n_average: 1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_n_gpus: 0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_oracle: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_resolving_unk: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_reverse_lm_rescoring: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_rnnt_beam_search_type: time_sync_mono
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_sets: []
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_softmax_smoothing: 1.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_stdout: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_streaming: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_streaming_encoding: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_unit: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_word_alignments: []
+2022-06-06 15:45:16,148 __main__ line:150 INFO: recog_wordlm: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: remove_old_checkpoints: True
+2022-06-06 15:45:16,148 __main__ line:150 INFO: replace_sos: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: resume: None
+2022-06-06 15:45:16,148 __main__ line:150 INFO: save_path: /home/mgl/neural_sp/neural_sp/bin/asr/../../../examples/aishell/s5/data/results/aishell1/asr/train_sp/conv2Lconformer256dmodel1024dff1L4Hkernel15_layer_norm_clamp10_max_pool2_noam_lr5.0_bs18000_ls0.1_warmup25000_accum8_ctc1.0_27FM2_100TM2
+2022-06-06 15:45:16,148 __main__ line:150 INFO: seed: 1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: sequence_summary_network: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: shuffle_bucket: True
+2022-06-06 15:45:16,148 __main__ line:150 INFO: sort_by: input
+2022-06-06 15:45:16,148 __main__ line:150 INFO: sort_short2long: True
+2022-06-06 15:45:16,148 __main__ line:150 INFO: sort_stop_epoch: 100
+2022-06-06 15:45:16,148 __main__ line:150 INFO: ss_prob: 0.2
+2022-06-06 15:45:16,148 __main__ line:150 INFO: ss_start_epoch: 0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: start_hk_epoch: 1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: stdout: 0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: sub1_weight: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: sub2_weight: 0.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: subsample: 1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: subsample_factor: 2
+2022-06-06 15:45:16,148 __main__ line:150 INFO: subsample_factor_sub1: 1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: subsample_factor_sub2: 1
+2022-06-06 15:45:16,148 __main__ line:150 INFO: subsample_type: max_pool
+2022-06-06 15:45:16,148 __main__ line:150 INFO: task_specific_layer: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: teacher: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: teacher_lm: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: tie_embedding: False
+2022-06-06 15:45:16,148 __main__ line:150 INFO: time_width: 100
+2022-06-06 15:45:16,148 __main__ line:150 INFO: time_width_upper: 1.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: total_weight: 1.0
+2022-06-06 15:45:16,148 __main__ line:150 INFO: train_ctc_alignment: None
+2022-06-06 15:45:16,148 __main__ line:150 INFO: train_dtype: float32
+2022-06-06 15:45:16,149 __main__ line:150 INFO: train_set: /media/mgl/OS/data/dataset/train_sp.tsv
+2022-06-06 15:45:16,149 __main__ line:150 INFO: train_set_sub1: False
+2022-06-06 15:45:16,149 __main__ line:150 INFO: train_set_sub2: False
+2022-06-06 15:45:16,149 __main__ line:150 INFO: train_word_alignment: None
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_enc_clamp_len: 10
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_enc_d_ff: 1024
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_enc_d_model: 256
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_enc_lookaheads: 0_0_0_0_0_0_0_0_0_0_0_0
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_enc_n_heads: 4
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_enc_pe_type: relative
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_ffn_activation: swish
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_ffn_bottleneck_dim: 0
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_layer_norm_eps: 1e-12
+2022-06-06 15:45:16,149 __main__ line:150 INFO: transformer_param_init: xavier_uniform
+2022-06-06 15:45:16,149 __main__ line:150 INFO: unit: char
+2022-06-06 15:45:16,149 __main__ line:150 INFO: unit_sub1: False
+2022-06-06 15:45:16,149 __main__ line:150 INFO: unit_sub2: False
+2022-06-06 15:45:16,149 __main__ line:150 INFO: use_wandb: 0
+2022-06-06 15:45:16,149 __main__ line:150 INFO: vocab: 4236
+2022-06-06 15:45:16,149 __main__ line:150 INFO: vocab_sub1: -1
+2022-06-06 15:45:16,149 __main__ line:150 INFO: vocab_sub2: -1
+2022-06-06 15:45:16,149 __main__ line:150 INFO: warmup_n_steps: 25000
+2022-06-06 15:45:16,149 __main__ line:150 INFO: warmup_start_lr: 0
+2022-06-06 15:45:16,149 __main__ line:150 INFO: weight_decay: 1e-06
+2022-06-06 15:45:16,149 __main__ line:150 INFO: weight_noise_std: 0
+2022-06-06 15:45:16,149 __main__ line:150 INFO: workers: 0
+2022-06-06 15:45:16,149 __main__ line:150 INFO: wp_model: False
+2022-06-06 15:45:16,149 __main__ line:150 INFO: wp_model_sub1: False
+2022-06-06 15:45:16,149 __main__ line:150 INFO: wp_model_sub2: False
+2022-06-06 15:45:16,149 __main__ line:155 INFO: dec_fwd.ctc.output.fc0.bias 512
+2022-06-06 15:45:16,149 __main__ line:155 INFO: dec_fwd.ctc.output.fc0.weight 131072
+2022-06-06 15:45:16,149 __main__ line:155 INFO: dec_fwd.ctc.output.fc1.bias 4236
+2022-06-06 15:45:16,149 __main__ line:155 INFO: dec_fwd.ctc.output.fc1.weight 2168832
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.bridge.bias 256
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.bridge.weight 327680
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.0.conv1.bias 32
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.0.conv1.weight 288
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.0.conv2.bias 32
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.0.conv2.weight 9216
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.1.conv1.bias 32
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.1.conv1.weight 9216
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.1.conv2.bias 32
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.conv.layers.1.conv2.weight 9216
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.layers.0.conv.depthwise_conv.bias 256
+2022-06-06 15:45:16,149 __main__ line:155 INFO: enc.layers.0.conv.depthwise_conv.weight 3840
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.conv.norm.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.conv.norm.weight 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.conv.pointwise_conv1.bias 512
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.conv.pointwise_conv1.weight 131072
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.conv.pointwise_conv2.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.conv.pointwise_conv2.weight 65536
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward.w_1.bias 1024
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward.w_1.weight 262144
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward.w_2.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward.w_2.weight 262144
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward_macaron.w_1.bias 1024
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward_macaron.w_1.weight 262144
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward_macaron.w_2.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.feed_forward_macaron.w_2.weight 262144
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm1.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm1.weight 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm2.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm2.weight 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm3.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm3.weight 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm4.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm4.weight 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm5.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.norm5.weight 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.self_attn.w_key.weight 65536
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.self_attn.w_out.weight 65536
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.self_attn.w_query.weight 65536
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.layers.0.self_attn.w_value.weight 65536
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.norm_out.bias 256
+2022-06-06 15:45:16,150 __main__ line:155 INFO: enc.norm_out.weight 256
+2022-06-06 15:45:16,150 __main__ line:156 INFO: Total 4.18 M parameters
+2022-06-06 15:45:16,150 __main__ line:157 INFO: torch version: 1.11.0+cu113
+2022-06-06 15:45:16,150 __main__ line:158 INFO: Speech2Text(
+  (enc): ConformerEncoder(
+    (conv): ConvEncoder(
+      (layers): ModuleList(
+        (0): Conv2dBlock(
+          (dropout): Dropout(p=0.0, inplace=False)
+          (conv1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        )
+        (1): Conv2dBlock(
+          (dropout): Dropout(p=0.0, inplace=False)
+          (conv1): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (pool): MaxPool2d(kernel_size=(2, 2), stride=(2, 2), padding=(0, 0), dilation=1, ceil_mode=True)
+        )
+      )
+      (bridge): Linear(in_features=1280, out_features=256, bias=True)
+    )
+    (pos_emb): XLPositionalEmbedding(
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (layers): ModuleList(
+      (0): ConformerEncoderBlock(
+        (norm1): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (feed_forward_macaron): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): Swish()
+        )
+        (norm2): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (self_attn): RelativeMultiheadAttentionMechanism(
+          (dropout_attn): Dropout(p=0.0, inplace=False)
+          (w_key): Linear(in_features=256, out_features=256, bias=False)
+          (w_value): Linear(in_features=256, out_features=256, bias=False)
+          (w_query): Linear(in_features=256, out_features=256, bias=False)
+          (w_out): Linear(in_features=256, out_features=256, bias=False)
+        )
+        (norm3): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (conv): ConformerConvBlock(
+          (pointwise_conv1): Conv1d(256, 512, kernel_size=(1,), stride=(1,))
+          (depthwise_conv): Conv1d(256, 256, kernel_size=(15,), stride=(1,), padding=(7,), groups=256)
+          (norm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (activation): Swish()
+          (pointwise_conv2): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+        )
+        (norm4): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=256, out_features=1024, bias=True)
+          (w_2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): Swish()
+        )
+        (norm5): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (norm_out): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+  )
+  (dec_fwd): RNNDecoder(
+    (ctc): CTC(
+      (output): Sequential(
+        (fc0): Linear(in_features=256, out_features=512, bias=True)
+        (dropout0): Dropout(p=0.4, inplace=False)
+        (fc1): Linear(in_features=512, out_features=4236, bias=True)
+      )
+      (ctc_loss): CTCLoss()
+    )
+  )
+)
+2022-06-06 15:45:16,151 neural_sp.trainers.optimizer line:26 INFO: ===== Freezed parameters =====
+2022-06-06 15:45:16,333 neural_sp.models.base line:107 INFO: torch.backends.cudnn.benchmark: False
+2022-06-06 15:45:16,333 neural_sp.models.base line:108 INFO: torch.backends.cudnn.enabled: True
+2022-06-06 15:45:19,445 __main__ line:275 INFO: PID: 15023
+2022-06-06 15:45:19,445 __main__ line:276 INFO: USERNAME: mgl-Precision-5820-Tower
+2022-06-06 15:45:19,445 __main__ line:277 INFO: #GPU: 1
+2022-06-06 15:45:19,487 neural_sp.models.seq2seq.decoders.decoder_base line:34 INFO: Activate scheduled sampling
