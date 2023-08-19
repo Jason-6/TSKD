@@ -1,4 +1,4 @@
-# The code for the paper "A lightweight speech recognition method with target-swap knowledge distillation for Mandarin air traffic control communications".
+## The code for the paper "A lightweight speech recognition method with target-swap knowledge distillation for Mandarin air traffic control communications".
 
 ## Note: Knowledge distillation is a training strategy that is not limited to a specific speech recognition network framework.
 
